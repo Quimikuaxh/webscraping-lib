@@ -1,0 +1,33 @@
+{
+  "name": "webscrap",
+  "version": "1.0.0",
+  "description": "Library to easily webscrap and download images",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "npm i && tsc",
+    "clean": "rm -rf node_modules dist package-lock.json || true",
+    "clean-build": "",
+    "lint": "eslint . --ext .ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "quimikuaxh",
+  "license": "ISC",
+  "files": [
+    "dist/*"
+  ],
+  "dependencies": {
+    "@types/node": "20.8.9",
+    "@typescript-eslint/eslint-plugin": "6.9.0",
+    "@typescript-eslint/parser": "6.9.0",
+    "axios": "1.6.0",
+    "eslint": "8.52.0",
+    "request": "2.88.2",
+    "ts-node": "10.9.1",
+    "xpath-html": "1.0.3"
+  },
+  "devDependencies": {
+    "@types/request": "2.48.11",
+    "tsconfig-paths": "^4.2.0"
+  }
+}

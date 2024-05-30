@@ -1,5 +1,5 @@
 {
-  "name": "webscrap",
+  "name": "@quimikuaxh/webscrap",
   "version": "1.0.0",
   "description": "Library to easily webscrap and download images",
   "main": "dist/index.js",

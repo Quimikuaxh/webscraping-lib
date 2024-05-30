@@ -9,7 +9,7 @@
     "clean": "rm -rf node_modules dist package-lock.json || true",
     "clean-build": "npm run clean && npm run build",
     "lint": "eslint . --ext .ts",
-    "publish": "npm run clean-build && npm publish",
+    "publish": "npm run clean-build && npm publish --access=public",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "quimikuaxh",

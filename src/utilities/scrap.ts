@@ -14,6 +14,10 @@ class Scrap {
         return xpath.fromPageSource(html).findElement(xpathSelector);
     }
 
+    static findElementsByXpath(html: string, xpathSelector: string){
+        return xpath.fromPageSource(html).findElements(xpathSelector);
+    }
+
     static getAttribute(element, attributeName: string){
         const value = element.getAttribute(attributeName);
         if(value){

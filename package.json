@@ -1,6 +1,6 @@
 {
   "name": "@quimikuaxh/webscrap",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "Library to easily webscrap and download images",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -9,7 +9,7 @@
     "clean": "rm -rf node_modules dist package-lock.json || true",
     "clean-build": "npm run clean && npm run build",
     "lint": "eslint . --ext .ts",
-    "publish": "npm run clean-build && npm publish --access=public",
+    "publish": "npm publish --access=public",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "quimikuaxh",
